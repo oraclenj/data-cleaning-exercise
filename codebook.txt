@@ -1,0 +1,24 @@
+
+
+Data Dictionary for all_tidy.txt
+
+
+
+field 1: subject_id: 1-2 digit numeric subect identifier, from 1 to 30
+
+field 2: activity_name: 18-character activity type, enclosed in double quotes,
+ - one of the following:
+
+	LAYING
+	SITTING
+	STANDING
+	WALKING
+	WALKING_DOWNSTAIRS
+	WALKING_UPSTAIRS
+
+field 3: variable: 36-character feature name from the features.txt file,
+ enclosed in double quotes, 
+ but only those that have 'mean' or 'std' in the lowercased feature name.
+
+field 4: mean: 21 digit number, with at least 6 digits to the right of the decimal point
+
