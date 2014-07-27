@@ -6,6 +6,7 @@ coursera data cleaning class exercise
 
 #README.txt for run_analysis.R script
 
+	0. download and unzip the zipped file from            https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 	1. read in the 3 test files, 3 train files, and 2 reference files
 	2. change the column names for activites and feature names
 	3. add the activity labes to the test and train fact data frames
