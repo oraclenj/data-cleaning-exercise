@@ -20,5 +20,7 @@ field 3: variable: 36-character feature name from the features.txt file,
  enclosed in double quotes, 
  but only those that have 'mean' or 'std' in the lowercased feature name.
 
-field 4: mean: 21 digit number, with at least 6 digits to the right of the decimal point
+field 4: mean: 21 digit number between -1 and 1, with at least 6 digits to the right of the decimal point.
+         This was calculated using the ddply function with the mean calculated against
+	 subject_name, activity_name, and variable.
 
